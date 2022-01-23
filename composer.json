@@ -1,0 +1,19 @@
+{
+    "name": "arikaim/web3-module",
+    "description": "Arikam Web3 Module",
+    "keywords": ["Module","web3","Arikaim CMS"],
+    "type": "arikaim-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Konstantin Atanasov",
+        "email": "info@arikaim.com",
+        "homepage": "http://arikaim.com"
+    }],
+    "require": {        
+        "arikaim/installer": "*",
+        "sc0vu/web3.php": "*"
+    },
+    "extra": {     
+        "path": "parsers"
+    }
+}
