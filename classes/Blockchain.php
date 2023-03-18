@@ -41,7 +41,7 @@ class Blockchain
         ]
     ];
 
-    public static function getBlockchainName(int $index): ?string
+    public static function getBlockchainName($index): ?string
     {
         return Self::BLOCKCHAIN[$index] ?? null;
     }
