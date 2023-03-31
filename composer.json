@@ -11,7 +11,7 @@
     }],
     "require": {        
         "arikaim/installer": "*",
-        "sc0vu/web3.php": "*",
+        "web3p/web3.php": "*",
         "kornrunner/keccak": "^1.1.0",
         "ext-gmp": "*",
         "simplito/elliptic-php": "^1.0.0"
