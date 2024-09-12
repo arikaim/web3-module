@@ -41,14 +41,25 @@ class Blockchain
         ]
     ];
 
+    /**
+     * Get blockchain name
+     *
+     * @param mixed $index
+     * @return string|null
+     */
     public static function getBlockchainName($index): ?string
     {
         return Self::BLOCKCHAIN[$index] ?? null;
     }
 
+    /**
+     * Get network name
+     *
+     * @param mixed $index
+     * @return string|null
+     */
     public static function getNetworkName($index): ?string
     {
-        $name = Self::$ethereumNetworks[$index] ?? null;
-        return $name;
+        return Self::$ethereumNetworks[$index] ?? null;
     }
 }
