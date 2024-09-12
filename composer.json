@@ -11,12 +11,12 @@
     }],
     "require": {        
         "arikaim/installer": "*",
-        "sc0vu/web3.php": "*",
+        "sc0vu/web3.php": "^0.3",
         "kornrunner/keccak": "^1.1.0",
         "ext-gmp": "*",
         "simplito/elliptic-php": "^1.0.0"
     },
     "extra": {     
-        "path": "parsers"
+        "path": "web3"
     }
 }
